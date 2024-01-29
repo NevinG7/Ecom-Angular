@@ -1,0 +1,87 @@
+.main-container{
+    padding: 5px;
+}
+.results-section{
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.items-container{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(231, 230, 230);
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+.item-details{
+    padding: 5px;
+    margin-left: 15px;
+}
+.rating{
+    margin: 8px;
+    display: flex;
+    flex-direction: row;
+}
+.rating svg{
+    width: 15px;
+}
+.rating span{
+    margin-top: 3px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #007185;
+}
+.price{
+    margin-top: 10px;
+}
+
+.price-whole{
+    font-size: 28px;
+}
+.price-container {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+  }
+  
+  .original-price {
+    color: #888; /* Original price color */
+    text-decoration: line-through; /* Strikethrough */
+  }
+  
+  .discounted-price {
+    color: #333; /* Discounted price color */
+    font-size: 1.2em; /* Larger font size for discounted price */
+  }
+  
+  .discount {
+    color: green; /* Discount percentage color */
+    font-weight: bold;
+  }
+
+  .delivery-container {
+    font-family: Arial, sans-serif;
+    margin-top: 15px;
+  }
+  
+  .delivery-container p {
+    margin: 0; /* Remove default margin */
+    color: #333; /* Text color */
+  }
+  
+  .delivery-container p:first-child {
+    font-weight: bold; /* Make the first paragraph bold */
+  }
+  
+  .delivery-container p:last-child {
+    margin-top: 5px; /* Add some space between the paragraphs */
+    color: green; /* Color for fastest delivery */
+  }
+
+.desc{
+    margin-top: 10px;
+}
