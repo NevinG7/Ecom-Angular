@@ -49,17 +49,17 @@
   }
   
   .original-price {
-    color: #888; /* Original price color */
-    text-decoration: line-through; /* Strikethrough */
+    color: #888; 
+    text-decoration: line-through; 
   }
   
   .discounted-price {
-    color: #333; /* Discounted price color */
-    font-size: 1.2em; /* Larger font size for discounted price */
+    color: #333; 
+    font-size: 1.2em;
   }
   
   .discount {
-    color: green; /* Discount percentage color */
+    color: green; 
     font-weight: bold;
   }
 
@@ -69,17 +69,17 @@
   }
   
   .delivery-container p {
-    margin: 0; /* Remove default margin */
-    color: #333; /* Text color */
+    margin: 0; 
+    color: #333; 
   }
   
   .delivery-container p:first-child {
-    font-weight: bold; /* Make the first paragraph bold */
+    font-weight: bold; 
   }
   
   .delivery-container p:last-child {
-    margin-top: 5px; /* Add some space between the paragraphs */
-    color: green; /* Color for fastest delivery */
+    margin-top: 5px; 
+    color: green; 
   }
 
 .desc{

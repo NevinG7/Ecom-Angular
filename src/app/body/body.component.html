@@ -10,18 +10,14 @@
             <div class="item-details">
               <h3>{{item.name}}
               </h3>
-              <p>{{item.author}} | 1 May 2019</p>
+              <p>{{item.author}} | {{item.date}}</p>
               <span>Paperback</span>
               <div class="price">
                 <div class="price-container">
-                  <span class="original-price">M.R.P: ₹{{item.ogPrice}}</span>
+                  <span class="original-price">M.R.P: ₹{{item.originalPrice}}</span>
                   <span class="discounted-price">₹{{item.discountPrice}}</span>
-                  <span class="discount">47% off</span>
                 </div>
-                <div class="delivery-container">
-                  <p>FREE delivery <strong>Tue, 30 Jan </strong> on ₹499 of <br>items fulfilled by Amazon</p>
-                  <p>Or fastest delivery Today</p>
-                </div>
+                
                 <ng-container *ngIf="bookDetails && bookName==item.name">
                   <div class="desc">
                       <p>{{bookDetails}}</p>
